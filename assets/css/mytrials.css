@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body {
+    font-family: Manrope !important;
+}
+
+:root {
+    --font-family: "Manrope", sans-serif;
+    --white: #ffffff;
+    --base-color: #0E0F19;
+}
+
+
+.div-bg {
+    display: flex;
+    background: #171928;
+}
+
+.table {
+    border-collapse: unset !important;
+}
+
+thead {
+    /* margin-bottom: 10px !important; */
+    border: none !important;
+}
+
+.table> :not(caption)>*>* {
+    border-bottom-width: 0px !important;
+}
+
+.table-icon-swap {
+    width: 18px !important;
+    height: 14px !important;
+    margin-left: 5px !important;
+}
+
+td {
+    color: white !important;
+}
+
+.table-action {
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background: #1A3E47 !important;
+}
+
+#search-parent {
+    border-radius: 4px;
+    border: 1px solid #1F2335;
+    background: #0E0F19 !important;
+    padding: 0px 18px;
+    align-items: center;
+    gap: 16px;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.filter {
+    padding: 10px 18px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 16px !important;
+    border-radius: 4px !important;
+    border: 1px solid #1F2335 !important;
+    background: #0E0F19 !important;
+}
+
+.pagination-icon {
+    background: #0E0F19 !important;
+    padding: 10px !important;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    opacity: 0.7;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: -0.28px;
+}
+
+.pagination-icon-active {
+    background: #0E0F19 !important;
+    padding: 10px !important;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    /* opacity: 0.7; */
+    line-height: 150%;
+    /* 21px */
+}
+
+.table-title-upper {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.new-video {
+    display: flex;
+    padding: 11px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#mylist {
+    padding: 0px;
+}
+
+.listitem {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #171928;
+}
+
+.listitem-active {
+    list-style-type: none;
+    padding: 20px;
+    background-color: #012D60;
+    color: white;
+}
+
+.number-list {
+    margin-right: 10px;
+    padding: 5px 12px;
+    border-radius: 30px;
+    background-color: #202B3C;
+}
+
+.info-title {
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#investor-list-parent-active {
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #41D7FD;
+    background: #012D60;
+    padding: 16px;
+}
+
+#investor-list-parent {
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #000;
+    padding: 16px;
+}
+
+#investor-list-parent-active2 {
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #41D7FD;
+    background: #012D60;
+    padding: 8px;
+}
+
+#investor-list-parent2 {
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    background: #000;
+    padding: 16px;
+}
+
+.investor-list-title {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.investor-list-desc {
+    color: #64748B;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.4px;
+}
+
+.horizontal {
+    background-color: #1F2335;
+}
+.newtrial-inputs-parent{
+    background-color: #0E0F19;
+}
+.newtrial-inputs-common {
+    align-items: center;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #000;
+}
+
+.email-icon {
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    background: #000;
+    border-right: none;
+    /* padding: 20px 14px 20px 14px; */
+}
+
+.email-icon-right {
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    background: #000;
+    padding: 20px 14px 20px 14px;
+}
+
+.email {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+    border: none;
+    background: #000;
+    color: white;
+}
+
+.email:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none !important;
+    color: white;
+}
+
+input::placeholder {
+    color: #94A3B8 !important;
+}
+
+.custom-button {
+    padding: 15px 43px;
+    border: 1px solid #41D7FD;
+    height: auto;
+    background-color: transparent;
+}
+
+.custom-button-active {
+    padding: 15px 43px;
+    border: 1px solid #41D7FD;
+    height: auto;
+    background: #41D7FD;
+    color: #fff;
+}
+
+.radio-custom-label {
+    font-size: 20px;
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.investor-list-parent-custom {
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    /* border: 1px solid #41D7FD; */
+    background: #000;
+    padding: 8px;
+}
+
+input {
+    width: auto !important;
+}
+
+.investor-list-parent-custom-active {
+    align-items: center;
+    gap: 16px;
+    border-radius: 4px;
+    border: 1px solid #41D7FD;
+    background: #012D60;
+    padding: 8px;
+}
+
+.meta-mask {
+    border-radius: 4px;
+    background: #F7931A;
+    padding: 18px 32px;
+}
+
+.metamask-title {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.metamask-description {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.pass-hint {
+    color: #41D7FD;
+    font-family: var(--font-family);
+    /* margin-top: -16px; */
+}
+
+.arculus {
+    border-radius: 4px;
+    background: #6961F8;
+    padding: 18px 32px;
+    background-image: url('../img/bg-arculus.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.arculus-title {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.arculus-description {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.exchange {
+    border-radius: 4px;
+    background: #6CCE97;
+    padding: 18px 32px;
+    background-image: url('../img/exchange.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exchange-title {
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.exchange-description {
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fas.fa-image {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+[type="file"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.file-label {
+    color: #90A5BE;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+/* ///////////////// COLD WALLET //////////////// */
+
+.wallet-container {
+    padding: 24px 24px 30px 24px;
+    gap: 24px;
+    border-radius: 4px;
+    background: #171928;
+}
+
+.wallet-left {
+    padding: 24px;
+    border-radius: 4px;
+    background: #6961F8;
+}
+
+.wallet-subtitle {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.36px;
+    margin: 0;
+}
+
+.wallet-title {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 54px */
+    letter-spacing: -1.08px;
+}
+
+.wallet-button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    background: #FFF;
+}
+
+.btn-wallet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 50%;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    padding: 22px 24px !important;
+}
+
+.wallet-right {
+    padding: 24px;
+    border-radius: 4px;
+    background: #0E0F19;
+}
+
+.wallet-description {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.24px;
+    margin-top: 16px;
+}
+
+.balance-analytics-parent {
+    background-image: url(../img/Balance\ Analytics.png);
+    padding: 98px 0px !important;
+}
+
+.analytics-subtitle {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    /* 36px */
+    letter-spacing: -0.48px;
+}
+
+.left-2fa {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.36px;
+}
+
+.right-2fa {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: -0.24px;
+}
+
+/* ///////////////// COLD WALLET END//////////////// */
+
+/* /////////////////// COLDE WALLET 2 ////////////////// */
+
+
+
+.arrow-div {
+    display: flex;
+    padding: 6px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #BCFFD9;
+}
+
+.arrow-para {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.32px;
+}
+
+.steps {
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+}
+
+.step-common {
+    padding: 16px;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #0E0F19 !important;
+    width: 24%;
+}
+
+.step-count {
+    padding: 4px 10px;
+    gap: 10px;
+    border-radius: 12px;
+    background: rgba(65, 215, 253, 0.10);
+}
+
+.step-title {
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 8px;
+}
+
+.steps-icon {
+    padding: 10px;
+    background-color: #171928;
+    border-radius: 4px;
+    background: rgba(65, 215, 253, 0.10);
+}
+
+.step-badge {
+    color: #41D7FD;
+    background: rgba(65, 215, 253, 0.10);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+step-badge2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* /////////////// WALLET3 /////////////// */
+.wallet3-icon {
+    border-radius: 4px;
+    background: #FCB660;
+    padding: 8px;
+
+}
+
+.wallet3-left {
+    background: #F7931A;
+    padding: 24px;
+    border-radius: 4px;
+}
+
+.wallet3-button,
+.wallet4-button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    background: #FFF;
+    color: #F7931A;
+}
+
+.wallet4-left {
+    background: #F7931A;
+    padding: 24px;
+    border-radius: 4px;
+}
+
+.icon-bg {
+    background-color: #736CFC;
+}
+
+.icon2-bg {
+    background-color: #F7931A;
+}
+
+.icon3-bg {
+    background-color: #6CCE97;
+}
+
+.parent-div {
+    background-color: #171928;
+}
+
+.mycard-title {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #41D7FD;
+}
+
+.mycard-body {
+    background-color: #0E0F19;
+    padding: 24px;
+    gap: 64px
+}
+
+.card-amount {
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.card-duration {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.card-button {
+    padding: 14px, 8px, 14px, 8px;
+    border-radius: 7px;
+    gap: 10px
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* //WALLET */
+    .left-2fa {
+        font-size: 12px;
+    }
+
+    .fa-parent {
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* //WALLET2 */
+    .step-common {
+        width: 100%;
+    }
+
+    /* //MYEXCHANGE */
+    .input-common {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+
+}
