@@ -18,6 +18,7 @@ body {
     background-position: 212px 1991px;
     background-repeat: no-repeat;
     background-color: #000;
+    margin: 0;
 }
 
 .wrapper {
@@ -318,6 +319,7 @@ body {
     line-height: 150%;
     letter-spacing: -0.32px;
 }
+
 .withdraw-text1 {
     color: #6CCE97;
     text-align: center;
@@ -463,7 +465,7 @@ body {
 
 .card-button-exchange {
     color: #6CCE97;
-    display: flex; 
+    display: flex;
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
@@ -820,21 +822,297 @@ td {
     padding: 5px;
     border-radius: 4px;
 }
-.table-icon-bg{
+
+.table-icon-bg {
     background: #736CFC;
 }
+
 .table-icon-bg1 {
     background: #F7931A;
 }
+
 .table-icon-bg2 {
     background: #6CCE97;
 }
-.badge-color{
+
+.badge-color {
     background-color: #1A3E47;
     /* width: 60%; */
 }
 
 
+/* ////////////// LOGIN /////////// */
+
+.two-factor_right {
+    /* height: 100vh; */
+    background-image: url('../images/two-fa.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login_left {
+    /* height: 100vh; */
+    background-color: var(--base-color);
+    padding: 50px 80px 50px 80px;
+}
+
+.left-inner {
+    margin-top: 80px;
+}
+
+.login-left-title {
+    color: #F8FAFC;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.login-left-para {
+    color: #94A3B8;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+}
+
+.login-email {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+}
+
+.email-icon {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+    border-right: none;
+    padding: 20px 14px 20px 14px;
+}
+
+.email-icon-right {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+    padding: 20px 14px 20px 14px;
+}
+
+.email {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+}
+
+.email:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: #171928;
+    box-shadow: none !important;
+    color: white;
+}
+
+input::placeholder {
+    color: #94A3B8 !important;
+    /* Change this to your desired color */
+}
+
+
+.login-checkbox {
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #E7E7E7;
+    background: none !important;
+}
+
+.login-social-text {
+    margin-top: 62px;
+    margin-bottom: 24px;
+    color: #94A3B8;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+}
+
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Customize the button styling */
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px 8px;
+    flex: 1 0 0;
+    border: none;
+    border-radius: 4px;
+    background: #121A26;
+}
+
+.custom-button i {
+    margin-right: 8px;
+}
+
+.login-last-para {
+    color: #94A3B8;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 36px */
+    letter-spacing: 0.3px;
+}
+
+.login-last-para-link {
+    color: #41D7FD;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+
+.forgot-password {
+    margin-left: auto;
+    color: #41D7FD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.login-checkbox {
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #E7E7E7;
+    background: none !important;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px 8px;
+    flex: 1 0 0;
+    border: none;
+    border-radius: 4px;
+    background: #121A26;
+}
+
+.custom-button i {
+    margin-right: 8px;
+}
+.sign-in {
+    display: flex;
+    padding: 24px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 7px;
+    border: none;
+    background: #012D60;
+
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+
+.two-factor-left-para{
+    color: #94A3B8;
+        font-family: Manrope;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 27px */
+        letter-spacing: 0.3px;
+}
+
+/* ////////////// LOGIN END /////// */
+/* //////////// 2 FA AUTH //////// */
+
+
+
+.two-factor-left-title {
+    color: #F8FAFC;
+    font-family: var(--font-family);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 46.8px */
+}
+
+.continue {
+    display: flex;
+    padding: 31px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 7px;
+    border: none;
+    background: #012D60;
+
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+/* //////////// 2 FA AUTH END //////// */
 
 
 
@@ -842,17 +1120,32 @@ td {
     .long-tabs {
         padding: 17px !important;
     }
-    .mob{
+
+    .mob {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 10px;
     }
-    .card-title-amount-hot{
+
+    .card-title-amount-hot {
         font-size: 30px;
     }
-    .arrow-para{
+
+    .arrow-para {
         font-size: 14px;
+    }
+
+    #sidebar {
+        position: absolute;
+        z-index: 1;
+    }
+
+    .app-brand-logo {
+        width: 50%;
+    }
+    .login_left{
+        padding: 50px 15px 50px 15px;
     }
 }

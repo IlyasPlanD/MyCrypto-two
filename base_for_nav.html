@@ -45,13 +45,14 @@
             <div class="row">
                 <div class="col-md-3 p-2 left-sidebar-parent d-none d-md-flex d-lg-flex" id="sidebar">
 
-                    <div class="p-3">
-                        <div class="p-2">
-                            <a href="index.html" class="app-brand-link">
-                                <span class="app-brand-logo demo"> <img
-                                        src="./images/footer-logo.png" alt
-                                        srcset></span>
+                    <div class="p-3 w-100">
+                        <div class="p-2 d-flex flex-row justify-content-between align-items-center">
+                            <a href="index.html" class="app-brand-link ">
+                                <span class="app-brand-logo demo"> 
+                                    <img src="./images/footer-logo.png" ></span>
                             </a>
+
+                            <span class="fa fa-bars d-flex d-md-none d-lg-none" id="toggle-out" style="color: white;"></span>
                         </div>
 
                         <ul
@@ -544,11 +545,16 @@
     $(document).ready(function(){
 
      $('#navtoggle').on('click',function(){
-            alert('k')
             $('#sidebar').addClass('d-flex')
             $('#sidebar').removeClass('d-none')
             $('#sidebar').addClass('d-flex')
 
+        })
+
+        $('#toggle-out').on('click',function(){
+             $('#sidebar').removeClass('d-flex')
+            $('#sidebar').addClass('d-none')
+            $('#sidebar').removeClass('d-flex')
         })
 
 
